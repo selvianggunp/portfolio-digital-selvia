@@ -1,0 +1,206 @@
+@font-face /*perintah untuk memanggil font eksternal*/
+{
+  font-family: 'calibrib'; /*memberikan nama bebas untuk font*/
+  src: url('../fonts/calibri/calibri.ttf');/*memanggil file font eksternalnya di folder nexa*/
+}
+
+html {
+  position: relative;
+}
+
+body {
+  margin-bottom: 100px;
+}
+
+.navbar{
+  font-family: 'calibrib';
+  font-weight: bold;
+}
+.collapse ul li{
+  font-size: 18px;
+}
+
+.navbar-header a{
+  font-size: 23px;
+} 
+
+.head {
+  margin-top: 50px;
+  background-color: rgb(252, 250, 247);
+  /* background-image: url(../img/jumbotron.png); */
+  background-size: cover;
+  background-position: 0 -140px;
+  background-attachment: fixed;
+  overflow: hidden;
+  height: 450px;
+}
+.head h1{
+  font-size: 50px;
+  margin-top: -5px;
+}
+
+.head h3, .head h1{
+  color: rgb(51, 153, 255);
+  font-family: 'calibrib';
+  font-weight: bold;
+}
+.head h1.nama, .head p {
+  color:#666;
+}
+ 
+.head img {
+  background-color: rgb(240, 221, 24);
+  width: 220px;
+  /* border: 5px solid rgb(238, 237, 237); */
+  margin-top: 35px;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.5);
+}
+
+.head .nama {
+  color: aliceblue;
+}
+
+hr {
+  width: 250px;
+  border-top: 4px solid #666;
+}
+
+.about {
+  min-height: 300px;
+ background-color: rgb(51, 153, 255);
+}
+
+.about h2{
+  color: rgb(252, 250, 247); ;
+  font-family: 'calibrib';
+  font-weight: bold;
+}
+
+.pKiri,
+.pKanan {
+  margin-top: 30px;
+  font-family: 'calibrib';
+  font-size: 21px;
+  /* font-weight: bold; */
+  color: rgb(252, 250, 247);
+  opacity: 0;
+  transform: translate(0, 60px) ;
+  transition: 1s;
+}
+.pKanan {
+  transform: translate(0, 60px) ;
+}
+
+.pKiri.pmuncul,
+.pKanan.pmuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.portfolio {
+  background-color: rgb(51, 153, 255);
+  min-height: 700px;
+}
+
+.portfolio h2 {
+  font-family: 'calibrib';
+  font-weight: bold;
+  color: rgb(252, 250, 247);
+  margin-top: 40px;
+
+  
+}
+
+.portfolio .thumbnail {
+  opacity: 0;
+  transition: 0.7s;
+  transform: translate(0, -50px);
+  margin-top:50px;
+}
+
+.portfolio .thumbnail.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.portfolio h4{
+  font-family: 'calibrib';
+  font-weight: bold;
+  color:  #666;
+  text-align: center;
+}
+
+.portfolio p{
+  font-family: 'calibrib';
+  color: #666;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.thumbnail a{
+  margin-left: 10%;
+  width: 80%;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* display: block;
+  text-align: center;
+
+
+  height: 35px;
+  line-height: 35px;
+  background-color: #666;
+  color: white;
+  
+
+  text-decoration: none; */
+}
+
+.contact {
+  min-height: 250px;
+}
+
+.logo-telp{
+  font-size: 30px;
+}
+.email img{
+  width: 20px;
+}
+
+.alamat img{
+  width: 20px;
+}
+
+.contact h3, .contact h2{
+  font-family: 'calibrib';
+  font-weight: bold;
+ /* color:  #666; */
+}
+
+
+.contact-me {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'calilbrib';
+  font-weight: bold;
+  margin-top: 40px;
+}
+.skill{
+  background-color: rgb(51, 153, 255);
+  height: 350px;
+}
+
+.skill .left, .right{
+  font-family: 'calibrib';
+  font-weight: bold;
+  font-size: 25px;
+  color:rgb(252, 250, 247);
+  margin-top: 30px;
+}
+
+.skill h2{
+  font-family: 'calibrib';
+  font-weight: bold;
+  color: rgb(252, 250, 247);
+}

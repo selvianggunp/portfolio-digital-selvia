@@ -12,6 +12,10 @@ body {
   margin-bottom: 100px;
 }
 
+.skill, .portfolio{
+  padding: 20px;
+}
+
 .navbar{
   font-family: 'calibrib';
   font-weight: bold;
@@ -67,7 +71,8 @@ hr {
 
 .about {
   height: 300px;
- background-color: rgb(51, 153, 255);
+ /* background-color: rgb(51, 153, 255); */
+ background-color: yellow;
 }
 
 .about h2{
@@ -98,7 +103,8 @@ hr {
 } */
 
 .portfolio {
-  background-color: rgb(51, 153, 255);
+  /* background-color: rgb(51, 153, 255); */
+  background-color: salmon;
   height: 700px;
 }
 
@@ -195,7 +201,7 @@ hr {
 .skill .left, .right{
   font-family: 'calibrib';
   font-weight: bold;
-  font-size: 25px;
+  font-size: 16px;
   color:rgb(252, 250, 247);
   margin-top: 30px;
 }
